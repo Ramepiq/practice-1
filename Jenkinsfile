@@ -14,7 +14,7 @@ pipeline {
         steps {
          //  withMaven(maven : 'Apache Maven 3.8.5'){
             sh 'mvn clean install'
-           // }
+          
           }
         }
       stage('Deploy to Tomcat'){
