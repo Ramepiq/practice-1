@@ -13,7 +13,7 @@ pipeline {
       stage('mvn Build') {
         steps {
          //  withMaven(maven : 'Apache Maven 3.8.5'){
-            bat 'mvn clean install'
+            sh 'mvn clean install'
            // }
           }
         }
