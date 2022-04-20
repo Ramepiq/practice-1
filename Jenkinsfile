@@ -2,7 +2,7 @@ pipeline {
    agent any 
    //tools {
         // Note: this should match with the tool name configured in your jenkins instance (JENKINS_URL/configureTools/)
-        //maven "Apache Maven 3.8.5" //
+        maven "Apache Maven 3.8.5" 
    //}
    stages{
       stage('checkout'){
